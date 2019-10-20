@@ -1,14 +1,23 @@
-def display_board(the_board)
+def display_board(board)
+#print an empty board
+ board = [" ", "  ", " ", " ", " ", " ", " ", " ", " "]
 
- the_board = [" ", "  ", " ", " ", " ", " ", " ", " ", " "]
-puts "Where would you like to place x?"
-puts = "#{the_board[0]}   |#{the_board[1]}   |#{the_board[2]}   "
-puts = "-----------"
-puts = "#{the_board[3]}   |#{the_board[4]}   |#{the_board[5]}   "
-puts = "-----------"
-puts = "#{the_board[6]}   |#{the_board[7]}   |#{the_board[8]}  "
+ row_1 = ("   |   |   ")
+ row_2 = ("-----------")
+ row_3 = ("   |   |   ")
+ row_4 = ("-----------")
+ row_5 = ("   |   |   ")
+  
+   end
+#print a board with the x in the center
+board = [" ", "  ", " ", "x ", " ", " ", " ", " ", " "]
 
-  end
+row_1 = ("   |   |   ")
+row_2 = ("-----------")
+row_3 = ("   |   |   ")
+row_4 = ("-----------")
+row_5 = ("   |   |   ")
+puts "#{Row_3[4]}"
 
-
-the_board = [" ", "  ", " ", "x ", " ", " ", " ", " ", " "
+end
+  
