@@ -7,7 +7,7 @@ def display_board(board)
  row_3 = ("   |   |   ")
  row_4 = ("-----------")
  row_5 = ("   |   |   ")
-  
+
    end
 #print a board with the x in the center
 board = [" ", "  ", " ", "x ", " ", " ", " ", " ", " "]
@@ -20,4 +20,3 @@ row_5 = ("   |   |   ")
 puts "#{Row_3[4]}"
 
 end
-  
