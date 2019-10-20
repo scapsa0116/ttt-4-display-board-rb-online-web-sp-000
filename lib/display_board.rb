@@ -17,6 +17,6 @@ row_2 = ("-----------")
 row_3 = ("   |   |   ")
 row_4 = ("-----------")
 row_5 = ("   |   |   ")
-puts "#{Row_3[board]}"
+puts "#{display_board[board]}"
 
 end
